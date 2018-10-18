@@ -34,7 +34,13 @@
 	</target>
     
     <target name="exportData" description="Export Salesforce objects">
-        <sfExport object="${object}" orgserver="${sf.orgserver}" basedir="${basedir}" orgname="${orgname}" username="${sf.username}" password="${sf.passwordencrypted}" soql="${soql}" />
+        <sfExport object="${object}"
+		  orgserver="${sf.orgserver}"
+		  basedir="${basedir}"
+		  orgname="${orgname}"
+		  username="${sf.username}"
+		  password="${sf.passwordencrypted}"
+		  soql="${soql}" />
     </target>
 
     <target name="upsertData" description="Upsert Salesforce objects">
