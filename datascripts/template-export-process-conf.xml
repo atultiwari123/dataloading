@@ -7,7 +7,7 @@
         <property name="name" value="_OBJECT_Export"/>
         <property name="configOverrideMap">
             <map>
-                <entry key="sfdc.endpoint" value="https://_ap5_.salesforce.com"/>
+                <entry key="sfdc.endpoint" value="https://_ORGSERVER_.salesforce.com"/>
                 <entry key="sfdc.username" value="atul123@cognizant.com"/>
                 <entry key="sfdc.password" value="ff975574974c96bf2b7b91533039f2229feb644dbfe648920527e9200fa1dc686c28fe4f95b1ba0b"/>
                 <entry key="process.encryptionKeyFile" value="_ENCRYPTION_KEY_FILE_"/>
